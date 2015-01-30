@@ -43,13 +43,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main); // inflate the GUI
 
         amountDisplayTextView = 
-           (TextView) findViewById(R.id.amountDisplayTextView);
+           (TextView) findViewById(R.id.amountDisplayView);
         
          EditText numPeopleText = 
-                (EditText) findViewById(R.id.peopleNum);
+                (EditText) findViewById(R.id.peopleNumber);
         
         percentCustomTextView = 
-           (TextView) findViewById(R.id.percentCustomTextView);
+           (TextView) findViewById(R.id.percentCustomView);
         tip15TextView = (TextView) findViewById(R.id.tip15TextView);
         total15TextView = (TextView) findViewById(R.id.ttotal15TextView);
         tipCustomTextView = (TextView) findViewById(R.id.tipCustomTextView);
@@ -87,7 +87,7 @@ public class MainActivity extends Activity {
 
         // set customTipSeekBar's OnSeekBarChangeListener
         SeekBar customTipSeekBar = 
-           (SeekBar) findViewById(R.id.customTipSeekBar);
+           (SeekBar) findViewById(R.id.customTipSeekBarView);
         customTipSeekBar.setOnSeekBarChangeListener(customSeekBarListener);
     }
     

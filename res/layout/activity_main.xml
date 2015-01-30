@@ -15,7 +15,7 @@
 
     
     <TextView
-        android:id="@+id/amountTextView"
+        android:id="@+id/amountView"
         android:layout_column="0"
         android:layout_gravity="top"
         android:layout_row="0"
@@ -25,7 +25,7 @@
 
     
     <TextView
-        android:id="@+id/customPercentageTextView"
+        android:id="@+id/customPercentageView"
         android:layout_column="0"
         android:layout_row="1"
         android:text="@string/custom_tip_percentage"
@@ -33,7 +33,7 @@
 
     
     <SeekBar
-        android:id="@+id/customTipSeekBar"
+        android:id="@+id/customTipSeekBarView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_column="1"
@@ -44,7 +44,7 @@
 
     
     <LinearLayout
-        android:id="@+id/percentLinearLayout"
+        android:id="@+id/percentLinearLayoutView"
         android:layout_width="237dp"
         android:layout_height="wrap_content"
         android:layout_column="1"
@@ -55,7 +55,7 @@
 
         
         <TextView
-            android:id="@+id/percent15TextView"
+            android:id="@+id/percent15View"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -66,7 +66,7 @@
 
         
         <TextView
-            android:id="@+id/percentCustomTextView"
+            android:id="@+id/percentCustomView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -114,7 +114,7 @@
 
     
     <TextView
-        android:id="@+id/tipTextView"
+        android:id="@+id/tipView"
         android:layout_column="0"
         android:layout_gravity="right|center_vertical"
         android:layout_row="3"
@@ -123,7 +123,7 @@
 
     
     <TextView
-        android:id="@+id/totalTextView"
+        android:id="@+id/totalView"
         android:layout_column="0"
         android:layout_gravity="right"
         android:layout_row="4"
@@ -172,7 +172,7 @@
 
     
     <TextView
-        android:id="@+id/amountDisplayTextView"
+        android:id="@+id/amountDisplayView"
         android:layout_width="244dp"
         android:layout_height="wrap_content"
         android:layout_column="1"
@@ -194,7 +194,7 @@
 
     
     <EditText
-        android:id="@+id/peopleNum"
+        android:id="@+id/peopleNumber"
         android:layout_width="244dp"
         android:layout_height="44dp"
         android:layout_column="1"
@@ -215,7 +215,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <LinearLayout
-        android:id="@+id/AmntPerPerson"
+        android:id="@+id/AmountPerPerson"
         android:layout_width="222dp"
         android:layout_gravity="fill_horizontal" >
 
